@@ -4,6 +4,9 @@
 TTAIR::TTAirPolygon *poly;
 
 void setup() {
+  //INICIANDO SERIAL
+  Serial.begin(115200);
+
   //Instanciando a classe em memória
   poly = new TTAIR::TTAirPolygon();
 
